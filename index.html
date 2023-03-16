@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>index page</title>
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+<div class="container">
+   <div class="content">
+      <h3>hi, User</h3>
+      <h1>welcome <span><?php echo $_SESSION['user_name'] ?></span></h1>
+      <p>this is an index page</p>
+      <a href="login.html" class="btn">login</a>
+      <a href="register.html" class="btn">register</a>
+   </div>
+</div>
+</body>
+</html>
